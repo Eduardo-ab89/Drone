@@ -1,0 +1,117 @@
+body html{
+  background-color: #ffffff;
+  width: 100%;
+
+}
+
+.navigation {
+  background-color: #ffd200;
+  color: #ffffff;
+}
+
+.logo img {
+  width: 80px;
+  height: auto;
+  float: left;
+  position:relative;
+  padding-left: 50px;
+}
+
+.parallax {
+  background-image: url("/Drone/assets/images/mavic.jpg");
+  height: 450px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .7;
+}
+
+.parallax1{
+  background-image: url("/Drone/assets/images/mavic-pro.jpg");
+  height: 450px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background-image: url("/Drone/assets/images/mavic3.jpg");
+  height: 450px;
+  width: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.topnav {
+  background-color: #f7f7f7;
+/*  overflow: hidden;*/
+  height: 35px;
+  width: 100%;
+/* Amarillo #ffd200*/
+/* Negro #1a1a1a */
+}
+
+.topnav a {
+  font-size: 16px;
+  font-family: 'Poppins';
+  float: left;
+  color: #000;
+  text-align:center;
+  padding: 16px 19px;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 35px;
+
+}
+
+.topnav a:hover{
+  /*background-color: #ffd200;*/
+  color: #000000;
+  font: bold;
+  border-bottom: 1px solid red;
+}
+
+.topnav a:active{
+  background-color: #03CFCC ;
+  color: #ffffff;
+}
+
+.menu {
+  text-align: right;
+  float: right;
+  position: relative;
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+  height: 35px;
+
+}
+
+.menu button{
+  padding-top: 26px;
+}
+
+.about {
+  background-color: #f7f7f7;
+  color: #000000;
+  position: inherit;
+  width: 50%;
+}
+
+.about img {
+  height: 15px;
+  width: auto;
+  position: relative;
+}
+
+.footer {
+  background-color: #1a1a1a;
+  height: 100px;
+  color: #f7f7f7;
+}
