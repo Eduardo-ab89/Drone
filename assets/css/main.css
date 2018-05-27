@@ -9,12 +9,16 @@ body html{
   color: #ffffff;
 }
 
-.logo img {
-  width: 80px;
+.inline-block li img {
+
   height: auto;
-  float: left;
-  position:relative;
-  padding-left: 50px;
+  float: none;
+}
+
+.logo {
+  float: none;
+  display: inline-block;
+  margin-right: -4px;
 }
 
 .parallax {
@@ -50,10 +54,10 @@ body html{
 }
 
 .topnav {
-  background-color: #f7f7f7;
+/*  background-color: #f7f7f7;
 /*  overflow: hidden;*/
-  height: 35px;
-  width: 100%;
+/*  height: 35px;
+/*  width: 100%;
 /* Amarillo #ffd200*/
 /* Negro #1a1a1a */
 }
@@ -84,13 +88,7 @@ body html{
 }
 
 .menu {
-  text-align: right;
-  float: right;
-  position: relative;
-  border-bottom: 1px solid gray;
-  margin-bottom: 10px;
-  height: 35px;
-
+  float: none;
 }
 
 .menu button{
@@ -110,8 +108,22 @@ body html{
   position: relative;
 }
 
+.inline-block{
+  float: none;
+  display: inline-block;
+  margin-right: -4px;
+}
+
 .footer {
   background-color: #1a1a1a;
   height: 100px;
   color: #f7f7f7;
+}
+.no-list{
+  margin: 0px;
+  padding: 0px;
+}
+
+.no-list li{
+  list-style-type: none;
 }
