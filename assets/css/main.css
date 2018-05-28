@@ -4,17 +4,6 @@ body html{
 
 }
 
-.navigation {
-  background-color: #ffd200;
-  color: #ffffff;
-}
-
-.inline-block li img {
-
-  height: auto;
-  float: none;
-}
-
 .logo {
   float: none;
   display: inline-block;
@@ -53,13 +42,18 @@ body html{
 
 }
 
-.topnav {
-/*  background-color: #f7f7f7;
-/*  overflow: hidden;*/
-/*  height: 35px;
-/*  width: 100%;
+.nav {
+  background-color: #red;
+  overflow: hidden;*/
+  height: 35px;
+  width: 100%;
 /* Amarillo #ffd200*/
 /* Negro #1a1a1a */
+}
+
+.pat {
+  text-align: center;
+  padding: 20px;
 }
 
 .topnav a {
@@ -75,7 +69,7 @@ body html{
 
 }
 
-.topnav a:hover{
+.nav a:hover{
   /*background-color: #ffd200;*/
   color: #000000;
   font: bold;
@@ -83,40 +77,41 @@ body html{
 }
 
 .topnav a:active{
-  background-color: #03CFCC ;
+  background-color: #03CFCC;
   color: #ffffff;
 }
 
 .menu {
+  background-color: #ffd200;
+  color: #ffffff;
   float: none;
-}
 
-.menu button{
-  padding-top: 26px;
 }
 
 .about {
   background-color: #f7f7f7;
   color: #000000;
-  position: inherit;
-  width: 50%;
+
 }
 
-.about img {
-  height: 15px;
-  width: auto;
-  position: relative;
+.paragraph {
+  text-align: justify;
+  text-decoration: underline;
+  font-family: verdana;
+  font-size: 8px;
+  padding: 5px;
 }
 
 .inline-block{
   float: none;
   display: inline-block;
   margin-right: -4px;
+  text-align: center;
 }
 
 .footer {
   background-color: #1a1a1a;
-  height: 100px;
+  height: 80px;
   color: #f7f7f7;
 }
 .no-list{
@@ -126,4 +121,9 @@ body html{
 
 .no-list li{
   list-style-type: none;
+}
+
+.row {
+  margin: 0px !important;
+  padding: 0px !important;
 }
